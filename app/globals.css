@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #03030d;
+    color: #f8fafc;
+    font-family: system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom glowing effect class */
+.glow-shadow {
+  box-shadow: 0 0 25px rgba(6, 182, 212, 0.15);
+}
